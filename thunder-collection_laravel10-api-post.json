@@ -1,0 +1,123 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "laravel10-api-post",
+    "dateExported": "2023-06-10T18:31:19.836Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "1a3dbf2e-36cb-4c26-8001-589bfc479fdf",
+            "colId": "f581fa25-a3ba-4832-9ed7-15b832f6be67",
+            "containerId": "",
+            "name": "get",
+            "url": "http://localhost:8000/api/posts",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-06-10T18:15:26.125Z",
+            "modified": "2023-06-10T18:25:18.239Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "06075cd8-4d72-4a7b-8254-eb07c787001d",
+            "colId": "f581fa25-a3ba-4832-9ed7-15b832f6be67",
+            "containerId": "",
+            "name": "post",
+            "url": "http://localhost:8000/api/posts",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-06-10T18:26:33.212Z",
+            "modified": "2023-06-10T18:27:01.842Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "title",
+                        "value": "a"
+                    },
+                    {
+                        "name": "content",
+                        "value": "a"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "image",
+                        "value": "c:\\Users\\k4ilham\\Desktop\\saweria.png"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "47ccaf1c-0653-411a-8162-843f1b56f4b2",
+            "colId": "f581fa25-a3ba-4832-9ed7-15b832f6be67",
+            "containerId": "",
+            "name": "update",
+            "url": "http://localhost:8000/api/posts/1",
+            "method": "POST",
+            "sortNum": 25000,
+            "created": "2023-06-10T18:29:41.612Z",
+            "modified": "2023-06-10T18:30:14.694Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "title",
+                        "value": "b"
+                    },
+                    {
+                        "name": "content",
+                        "value": "a"
+                    },
+                    {
+                        "name": "_method",
+                        "value": "PATCH"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "image",
+                        "value": "c:\\Users\\k4ilham\\Desktop\\saweria.png"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "04948357-205c-4b8b-8dc8-5953c36a53f3",
+            "colId": "f581fa25-a3ba-4832-9ed7-15b832f6be67",
+            "containerId": "",
+            "name": "detail",
+            "url": "http://localhost:8000/api/posts/1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-06-10T18:28:41.956Z",
+            "modified": "2023-06-10T18:28:47.233Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "5ed8822e-e168-4124-8ddc-efa7f80c6daf",
+            "colId": "f581fa25-a3ba-4832-9ed7-15b832f6be67",
+            "containerId": "",
+            "name": "delete",
+            "url": "http://localhost:8000/api/posts/1",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-06-10T18:31:08.435Z",
+            "modified": "2023-06-10T18:31:14.007Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
