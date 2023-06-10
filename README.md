@@ -4,5 +4,7 @@ php artisan serve
 
 php artisan storage:link
 
+php artisan make:resource PostResource
+
 
 
