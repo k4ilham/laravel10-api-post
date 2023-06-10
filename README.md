@@ -10,5 +10,9 @@ php artisan make:model Post -m
 
 php artisan migrate
 
+php artisan make:controller Api/PostController
+
+php artisan route:list
+
 
 
