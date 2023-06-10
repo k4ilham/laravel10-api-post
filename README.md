@@ -6,5 +6,9 @@ php artisan storage:link
 
 php artisan make:resource PostResource
 
+php artisan make:model Post -m
+
+php artisan migrate
+
 
 
